@@ -1,17 +1,17 @@
 {
   "name": "react-map-gl",
-  "description": "React components for Mapbox GL JS-compatible libraries",
+  "description": "React components for MapLibre GL JS-compatible libraries",
   "version": "7.0.0",
   "keywords": [
-    "mapbox",
-    "mapbox-gl",
+    "maplibre",
+    "maplibre-gl",
     "react",
-    "react-mapbox-gl",
-    "react mapbox"
+    "react-maplibre-gl",
+    "react maplibre"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/visgl/react-map-gl.git"
+    "url": "https://github.com/nagata-yoshiteru/react-maplibre-gl.git"
   },
   "license": "MIT",
   "types": "dist/esm/index.d.ts",
@@ -36,10 +36,10 @@
     "update-release-branch": "scripts/update-release-branch.sh"
   },
   "dependencies": {
-    "@types/mapbox-gl": "^2.6.0"
+    "@types/maplibre-gl": "^1.14.0"
   },
   "peerDependencies": {
-    "mapbox-gl": "*",
+    "maplibre-gl": "*",
     "react": ">=16.3.0"
   },
   "devDependencies": {
@@ -53,7 +53,7 @@
     "babel-loader": "^8.0.0",
     "coveralls": "^3.0.0",
     "jsdom": "^16.5.0",
-    "mapbox-gl": "^2.8.0",
+    "maplibre-gl": "^2.4.0",
     "ocular-dev-tools": "beta",
     "pre-commit": "^1.2.2",
     "react": "^18.0.0",
